@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+        .image1{
+            height:100px;
+            width:100px;
+        }
+        #navItem2{
+            color:whitesmoke;
+        }
+        #navItem5{
+            border-radius: 50px;
+            background: #01bf71;
+            padding: 10px 22px;
+            color: #010606;
+            font-size: 16px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            text-decoration: none;
+        }
+        .bg-container{
+            background-color: #01060646;
+            height:300px;
+        }
+        .technology-image {
+            width: 40vw;
+            margin: 5px;
+        }
+        .card-container1{
+            background-color:rgba(0, 0, 0, 0.886);
+            height:200px;
+            margin-top:160px;
+            border-radius:8px;
+            width:200px;
+            text-align:center;
+        }
+        .card-container2{
+            background-color:rgba(0, 0, 0, 0.886);
+            height:200px;
+            margin-top:160px;
+            border-radius:8px;
+            width:200px;
+            text-align:center;
+        }
+        .card-container3{
+            background-color:rgba(0, 0, 0, 0.886);
+            height:200px;
+            margin-top:160px;
+            border-radius:8px;
+            width:200px;
+            text-align:center
+        }
+        .card-container4{
+            background-color:rgba(0, 0, 0, 0.886);
+            height:200px;
+            margin-top:160px;
+            border-radius:8px;
+            width:200px;
+            text-align:center
+        }
+        .para{
+            font-family:Bree serif;
+            color:white;
+        }
+        .vr-link{
+            font-size:70px;
+        }
+        .vr-link1{
+            font-size:70px;
+        }
+        .vr-link2{
+            font-size:70px;
+        }
+        .vr-link3{
+            font-size:70px;
+        }
+        .container4{
+            height:500px;
+        }
+        .card-container1:hover, 
+        .card-container2:hover, 
+        .card-container3:hover,
+        .card-container4:hover {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    .d-flex .card-container1,
+    .d-flex .card-container2,
+    .d-flex .card-container3,
+    .d-flex .card-container4 {
+        margin: 0 10px; 
+        margin-top:180px;
+    }
+    .d-flex{
+        background-color: #00000083;
+    }
+    #block1{
+        /* background-color: #01bf71; */
+        background-image: url("https://th.bing.com/th/id/R.0bcf567b3c15e556304f0432f5f9e8f1?rik=1Y0iwwkEQ92PSQ&riu=http%3a%2f%2fhalfwayor.com%2fwp-content%2fuploads%2f2018%2f06%2fSolid-Waste-Management-and-dispose.jpg&ehk=77CRJ28YoZh%2fWELor7BW1UACakoynrs%2bGsrgxkJi9fo%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+    }
+    .container4 {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+    .child{
+        height: 500px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .child img{
+        height: 300px;
+    }
+    </style>
+</head>
+<body>
+      <div class="bg-container" id="block1">
+        <div class="d-flex flex-row justify-content-center">
+            <div class="card-container1">
+                <a href="/Ecommerce" class="vr-link"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                  </svg></a>
+                <p class="para"> Ecommerce </p>
+            </div>
+            <div class="card-container2">
+                <a href="/Learning" class="vr-link1"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                    <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+                  </svg></a>
+            
+                <p class="para"> Learning </p>
+            </div>
+            <div class="card-container3">
+                <a href="/classification"  class="vr-link2"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-collection" viewBox="0 0 16 16">
+                    <path d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13z"/>
+                  </svg></a>
+                
+                <p class="para"> Classification </p>
+            </div>
+        </div>
+      </div>
+      <div class="bg-dark">
+            <div class="container4">
+                <div class="child">
+                    <div>
+                        <img src="https://cdn.gamma.app/dtftt8vbx3d4axu/generated-images/-wBXK2fdkLRlpO0F.jpg">
+                    </div>
+                    <div style="margin-left: 40px;">
+                        <h2>Waste management</h2>
+                        <p>To overcome the problem from the waste we proposed</p>
+    
+                        <p>The solutions to the problem:</p>
+                        <ul>
+                            <li>To say the user about different types of waste and how to classify waste and briefly about waste.</li>
+                            <li>Generating the Wealth form the waste and also used to make them some good household decorative items.</li>
+                            <li>A Direct selling platform for selling the waste directly to recycling hubs.</li>
+                        </ul>
+    
+                    </div>
+                </div>
+            </div>
+
+      </div>
+</body>
+</html>

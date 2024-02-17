@@ -1,0 +1,346 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Waste Management</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Kanit:wght@400&family=Roboto:wght@400;700&family=Salsa&display=swap");
+      body {
+        margin: 0px;
+      }
+      .top {
+        background-image: url("https://www.cherryhillwaste.com/wp-content/uploads/2018/03/how-to-reduce-waste-at-home-960x480.jpg");
+        background-size: cover;
+      }
+      .header {
+        background-color: rgba(0, 0, 0, 0.58);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .head {
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      #logo {
+        font-family: Kanit;
+        font-weight: bolder;
+        font-size: 35px;
+        color: white;
+      }
+      #bt {
+        height: 50px;
+        width: 150px;
+        color: white;
+        font-weight: bold;
+        background-color: rgb(35, 35, 211);
+        border: none;
+        margin-right: 10px;
+        border-radius: 10px;
+        border: 1px solid white;
+      }
+      #bt:hover {
+        background-color: rgb(65, 71, 227);
+        cursor: pointer;
+      }
+      .bdy {
+        background-color: rgba(0, 0, 0, 0.58);
+        display: flex;
+        justify-content: center;
+      }
+      .intro {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+      }
+      #quo {
+        color: white;
+        font-weight: bold;
+        font-family: Roboto;
+        font-size: 95px;
+      }
+      .info {
+        width: 400px;
+        height: 120px;
+        overflow: clip;
+        font-family: Salsa;
+        color: white;
+        position: relative;
+        left: 20px;
+        top: 45px;
+      }
+      footer {
+        height: 200px;
+        color: white;
+        background-color: rgb(3, 39, 36);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .links {
+        margin-bottom: 20px;
+      }
+      footer img {
+        margin-left: 20px;
+        height: 25px;
+        width: 25px;
+        cursor: pointer;
+      }
+      .qury {
+        font-family: calibri;
+        color: gray;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+      #conInfo {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+      }
+      .details {
+        height: 500px;
+        gap: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .dt1 {
+        width: 460px;
+      }
+      #im1 {
+        height: 470px;
+        width: 300px;
+        border-radius: 10px;
+        object-fit: cover;
+      }
+      #q2 {
+        font-size: 50px;
+        font-family: Roboto Condensed;
+      }
+      #p1 {
+        font-family: Roboto;
+        font-family: 20px;
+      }
+      hr {
+        border: 1px solid rgb(183, 183, 255);
+      }
+      .parentDiv {
+        height: 500px;
+        font-family: Roboto Condensed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .maindiv {
+        font-family: Roboto;
+        height: 370px;
+        width: 1000px;
+        gap: 30px;
+        display: flex;
+      }
+      .subdiv {
+        background-color: rgba(253, 189, 189, 0.505);
+        padding: 20px;
+        border-radius: 10px;
+        height: 7cm;
+      }
+      a{
+        color: white;
+        text-decoration: none;
+      }
+      body {
+    font-family: Arial, sans-serif;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 34px;
+    top: 15px;
+    background-color: #f9f9f929;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-weight: bold;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+a{
+    color: blue;
+}
+@keyframes underline {
+            0%, 100% {
+                transform: scaleX(0);
+            }
+            50% {
+                transform: scaleX(1);
+            }
+        }
+
+        .underline {
+            display: inline-block;
+            position: relative;
+        }
+
+        .underline:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: rgb(255, 255, 255); /* Change the color as needed */
+            bottom: 0;
+            left: 0;
+            transform-origin: bottom right;
+            animation: underline 5s infinite; /* Change the duration as needed */
+
+        }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <div class="header">
+        <div class="head">
+          <h1 id="logo" class="underline">Wealth From Waste</h1>
+          <div class="bts">
+            <!-- <form>
+             <button id="bt"><a href="page2.html" > Get Started</a></button>
+            </form> -->
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <span class="material-symbols-outlined">
+                    menu
+                    </span></button>
+                    <div class="dropdown-content">
+                        <a href="/login">Login</a>
+                        <a href="/signup">Signup</a>
+                        <a href="/adminLog">Admin Login</a>
+                        <a href="#Contact">Contact us</a>
+                </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <div class="bdy">
+        <div class="intro">
+          <div class="quote">
+            <h1 id="quo">
+              Waste Isn't A Waste<br />
+              <span style="color: orange">Until We Waste It</span>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="details">
+      <div class="dt1">
+        <h1 id="q2">"One man's waste is another man's treasure"</h1>
+        <p id="p1">
+          Witness the beauty of upcycled creations and the transformations that
+          waste undergoes when given a new purpose. Embrace the concept that
+          something discarded can be turned into something valuable and unique.
+        </p>
+      </div>
+      <div>
+        <img
+          src="https://pbs.twimg.com/media/EURSoHQXQAALjVr?format=jpg&name=small"
+          id="im1"
+        />
+      </div>
+    </div>
+    <hr />
+    <div class="parentDiv">
+      <div class="heddiv">
+        <h1>How Waste Affects Humans</h1>
+      </div>
+      <div class="maindiv">
+        <div class="subdiv">
+          <h2>Health Hazards</h2>
+          <p>
+            Improper waste management poses significant health risks to
+            communities, leading to the spread of diseases and contamination of
+            vital resources. Discover the impact of waste on human well-being
+            and ways to address these type of challenges are <a href="https://vikaspedia.in/energy/environment/waste-management/bio-medical-waste-management/health-hazards#:~:text=Human%20Immunodeficiency%20Virus%20(HIV)%20and,due%20to%20improper%20waste%20management.">Read more...</a>
+          </p>
+          
+        </div>
+        <div class="subdiv">
+          <h2>Environmental Impact</h2>
+          <p>
+            Explore the repercussions of waste on the environment, including
+            pollution, habitat destruction, and climate change. Uncover the
+            interconnectedness of waste management with nature, and learn how
+            our actions can contribute to a healthier planet <a href="https://unacademy.com/content/railway-exam/study-material/basics-of-environment-and-pollution/impact-of-waste-on-the-environment-in-india/#:~:text=Collected%20wastes%20lead%20to%20the,be%20used%20for%20growing%20trees.">Read more...</a>
+          </p>
+          
+        </div>
+        <div class="subdiv">
+          <h2>Economic Opportunities</h2>
+          <p>
+            Discover the hidden potential for economic growth within the waste
+            management sector. Dive into the exciting world of recycling,
+            upcycling, and waste-to-energy initiatives that create jobs,
+            stimulate innovation, and drive sustainable development is the <a href="https://www.hilarispublisher.com/open-access/the-economic-and-environmental-benefits-of-efficient-waste-management.pdf">Read more...</a>
+          </p>
+          
+        </div>
+      </div>
+    </div>
+
+    <footer id="Contact">
+      <div class="links">
+        <img src="https://i.ibb.co/8jgfL9h/youtube-1.png" />
+        <img src="https://i.ibb.co/RP3PWN7/github.png" />
+        <img src="https://i.ibb.co/VV4hLMp/instagram.png" />
+        <img src="https://i.ibb.co/RbfvDgB/twitter.png" />
+        <img src="https://i.ibb.co/fQGMjh7/linkedin.png" />
+      </div>
+      <div class="qury">
+        <span>For Any Queries</span>
+        <span id="conInfo"
+          ><img src="https://i.ibb.co/PN2cH6b/mail.png" /><span
+            style="margin-left: 10px"
+            >Wastemanagementhelp@gmail.com</span
+          ></span
+        >
+      </div>
+    </footer>
+  </body>
+</html>
+

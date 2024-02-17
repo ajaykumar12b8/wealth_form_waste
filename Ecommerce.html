@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        
+        * {
+        
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        }
+        
+      .container {
+        width: 70%;
+        gap: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 75vh;
+        justify-content: center;
+        
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
+      img {
+        height: 100px;
+        width: 100px;
+      }
+      .crd1 {
+        height: auto;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 1px gray;
+        border-radius: 8px;
+        cursor: pointer;
+        padding: 10px;
+       
+        transition: all 0.2s ease-in-out;
+
+      }
+      .crd1:hover {
+        position: relative;
+        bottom: 5px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+        transform: translateY(-5px);
+
+      }
+      h4 {
+        margin-bottom: 20px;
+        color:black;
+      }
+      a {
+        text-decoration: none;
+      }
+      h1{
+        margin-top: 35px;
+        margin-left: 40px;
+      }
+      .con{
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+</head>
+<body>
+    <div class="header">
+    <h1>Waste Wing Marketplace</h1>
+    </div>
+    <div class="con">
+        <div class="container">
+        
+            <a href="/Sellwaste">
+                <div class="crd1">
+                  <h4>Sell waste</h4>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/128/1244/1244369.png"
+                    alt=""
+                  />
+                </div>
+              </a>
+              <a href="/Sellcraft">
+                <div class="crd1">
+                  <h4>Sell crafts</h4>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/128/3859/3859602.png"
+                    alt=""
+                  />
+                </div>
+              </a>
+              <a href="/Buycrafts">
+                <div class="crd1">
+                  <h4>Buy crafts</h4>
+                  <img
+                    src="https://t4.ftcdn.net/jpg/03/36/04/33/240_F_336043300_JzBoRN1kA82edgOQfLNirY6tS8t1E35O.jpg"
+                    alt=""
+                  />
+                </div>
+              </a>
+    
+        </div>
+    </div>
+    
+</body>
+</html>

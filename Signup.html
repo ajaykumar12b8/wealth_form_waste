@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>SignUp</title>
+    <style>
+        body{
+           background-color: #2ecd95; 
+        }
+        .con{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(247,247,247,255);
+            width: 60%;
+            padding: 40px;
+            height: 100%;
+            margin: 20px auto;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            border-radius: 5px;
+        }
+        .container{
+
+            height: 450px;
+            width: 400px;
+            background-image: url('https://www.pngitem.com/pimgs/m/186-1867393_people-analytics-png-great-place-to-work-illustration.png');
+           background-repeat: no-repeat;
+           
+            background-size: 100%;
+        }
+        .page{
+            width: 400px;
+            height: 450px;
+            background-color: rgba(247,247,247,255);
+            text-align: center;
+        }
+        .head{
+            margin-top: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input{
+            height: 30px;
+            width: 80%;
+        }
+        button{
+            height: 35px;
+            width:300px ;
+            border-radius: 5px;
+            background-color: #99ccff;
+            border: none;
+            font-weight: bold;
+            box-shadow: 1px 1px 3px gray;
+        }
+        .header{
+            display: flex;
+            justify-content: center;
+           
+        }
+        h1{
+            color:white ;
+        }
+        h1:hover{
+            transition: 1s;
+            color: #99003d;
+        }
+        input {
+            border: none;
+            outline: none; 
+            border-bottom: 1px solid #ccc; 
+            transition: border-bottom 0.3s;
+            padding: 5px;
+            background-color: transparent;
+            font-weight: bold;
+          }
+          
+          
+          input:focus {
+            border-bottom: 2px solid black; 
+          }
+    </style>
+</head>
+<body>
+    <div class="header"><h1 class="title"></h1></div>
+
+    <div class="con">
+        <div class="container">
+            
+        </div>
+        <div class="page">
+            <form action="/signupsubmit" method="post">
+                <h2 class="head">SignUp</h2><br><br>
+                <input type="email" name="email" id="" class="email" placeholder="Email " required><br><br>
+                <input type="password" name="password1" id="" class="pass" placeholder="Password" required><br><br>
+                <input type="password" name="password2" id="" class="pass" placeholder="Confirm your Password" required><br><br>
+
+                    <br><br><br>
+                
+                    <button>SignUp</button>
+                    
+               
+            </form>
+        </div>
+    </div>
+    <script>
+       
+    </script>
+</body>
+</html>
